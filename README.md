@@ -1,36 +1,67 @@
 ﻿# Data Analyst Portfolio
 
-A collection of selected university and personal data-analysis work using Python, SQL, and Power BI.
-
-The purpose of this repository is not to present every exercise I have completed.  
-Only projects that are relevant to Data Analyst work are included.
+Selected projects demonstrating my experience with spreadsheet analysis, Python, SQL and Power BI.
 
 ## Projects
 
-| Project | Main tools | Focus |
-|---|---|---|
-| Electronics Sales Analysis | Python, pandas | Sales and customer analysis |
-| Pharmacy Product Analysis | Python, pandas, visualization, basic ML | Data cleaning and exploratory analysis |
-| Vietnam Housing Analysis | Power BI | Dashboard and data visualization |
-| SQL Coursework | SQL Server / T-SQL | Querying, functions and stored procedures |
+### 01. Electronics Sales Analysis
+**Python | Sales Analysis**
 
-## About the older coursework
+University team project using a synthetic electronics sales dataset.
 
-Several projects in this repository originated from university coursework.
+The original coursework is retained, with its limitations documented. A stronger SQL-based version is planned.
 
-The original files were archived to GitHub in 2025. The Git commit date is used here as evidence of when the work was archived, not as proof of the exact day every piece of code was written.
+### 02. Pharmacy Product Analysis
+**Python | pandas | Data Cleaning | EDA | Basic Machine Learning**
 
-Some projects were team projects. Where this applies, the project README distinguishes my assigned contribution from the complete team artifact.
+University team project using product data collected from Long Chau Pharmacy.
 
-I have also documented methodological and technical weaknesses that I can identify today. I keep these limitations visible because they show how my understanding has changed since the original coursework was completed.
+My documented contribution included data standardization, Question 1 analysis, Random Forest experimentation and presentation/submission work.
 
-## Current direction
+The README also documents methodological weaknesses I can identify today.
 
-I am progressively rebuilding selected projects toward a more business-oriented Data Analyst portfolio, with greater emphasis on:
+### 03. Vietnam Housing Analysis
+**Power BI | Data Visualization**
+
+Dataset from a university team visualization project.
+
+The original team dashboard is not presented as my individual work. I plan to rebuild an individual Power BI dashboard from the dataset.
+
+### 04. CRM Sales Dashboard
+**Google Sheets | Pivot Tables | Sales Analytics**
+
+Maven Analytics Guided Project completed in September 2026.
+
+Built an interactive CRM sales dashboard using multiple related datasets, lookup formulas, Pivot Tables, KPI calculations, charts and filters.
+
+The original project was created in Google Sheets. The Excel file in this repository is an exported snapshot.
+
+### 05. Selected SQL Coursework
+**SQL Server | T-SQL**
+
+Selected university SQL coursework demonstrating joins, aggregations, functions, stored procedures and validation logic.
+
+Known technical weaknesses are documented in the project README rather than hidden.
+
+## Portfolio approach
+
+Some projects in this repository originated from university coursework or guided projects.
+
+For each project, I try to distinguish:
+
+- individual work from team work;
+- guided work from independently designed work;
+- original implementation from later improvements;
+- demonstrated skills from skills I am still developing.
+
+I also document limitations that I can identify today.
+
+My current focus is moving toward more business-oriented Data Analyst projects involving:
 
 - SQL
+- Excel / Google Sheets
+- Power BI
 - data quality
-- reproducible analysis
-- business questions
-- dashboard design
-- clear assumptions and limitations
+- sales and customer analysis
+- KPI reporting
+- business insights
