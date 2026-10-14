@@ -36,12 +36,20 @@ Built an interactive CRM sales dashboard using multiple related datasets, lookup
 
 The original project was created in Google Sheets. The Excel file in this repository is an exported snapshot.
 
-### 05. Selected SQL Coursework
+### 06. Selected SQL Coursework
 **SQL Server | T-SQL**
 
 Selected university SQL coursework demonstrating joins, aggregations, functions, stored procedures and validation logic.
 
 Known technical weaknesses are documented in the project README rather than hidden.
+
+
+### 07. Restaurant Orders Analysis
+**MySQL | SQL Analysis | 2026**
+
+Maven Analytics guided project exploring restaurant menu prices, order volumes, and order sizes. Objectives 1 and 2 are documented; cross-table analysis is pending.
+
+[View Project](./07-restaurant-orders-mysql/)
 
 ## Portfolio approach
 
@@ -65,3 +73,4 @@ My current focus is moving toward more business-oriented Data Analyst projects i
 - sales and customer analysis
 - KPI reporting
 - business insights
+
