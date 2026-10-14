@@ -1,4 +1,4 @@
-﻿# Restaurant Orders Analysis (MySQL)
+# Restaurant Orders Analysis (MySQL)
 
 **Project type:** Maven Analytics Guided Project  
 **Tools:** MySQL, MySQL Workbench  
@@ -75,7 +75,7 @@ In sql/03_analyze_customer_behavior.sql, I wrote queries to:
 
 1. Open **MySQL Workbench** and connect to a MySQL instance.
 2. Run `sql/create_restaurant_db.sql` to create and populate the schema.
-3. Run `sql/01_menu_exploration.sql` and `sql/02_orders_exploration.sql`.
+3. Run `sql/01_menu_exploration.sql`, `sql/02_orders_exploration.sql`, and `sql/03_analyze_customer_behavior.sql`.
 
 **Warning:** The setup script begins with `DROP SCHEMA IF EXISTS restaurant_db;`. It deletes an existing database with that name. Only run it in a safe, disposable environment or after reviewing the script.
 
@@ -87,15 +87,14 @@ Validate joined-table analysis, correct metric labels, add data-quality checks, 
 
 ```text
 07-restaurant-orders-mysql/
-â”œâ”€â”€ README.md
-â”œâ”€â”€ sql/
-â”‚   â”œâ”€â”€ create_restaurant_db.sql
-â”‚   â”œâ”€â”€ 01_menu_exploration.sql
-â”‚   â””â”€â”€ 02_orders_exploration.sql
-â””â”€â”€ data/
-    â””â”€â”€ restaurant_db_data_dictionary.csv
+|-- README.md
+|-- data/
+|   `-- restaurant_db_data_dictionary.csv
+`-- sql/
+    |-- create_restaurant_db.sql
+    |-- 01_menu_exploration.sql
+    |-- 02_orders_exploration.sql
+    `-- 03_analyze_customer_behavior.sql
 ```
 
 The original project scope is preserved. Objective 2, question 4 was corrected, and the remaining limitations are documented above.
-
-

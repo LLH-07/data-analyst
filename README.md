@@ -1,4 +1,4 @@
-﻿# Data Analyst Portfolio
+# Data Analyst Portfolio
 
 Selected projects demonstrating my experience with spreadsheet analysis, Python, SQL and Power BI.
 
@@ -36,6 +36,13 @@ Built an interactive CRM sales dashboard using multiple related datasets, lookup
 
 The original project was created in Google Sheets. The Excel file in this repository is an exported snapshot.
 
+### 05. Coffee Shop Sales Analysis
+**Microsoft Excel | Sales Analytics | September 2026**
+
+Excel dashboard analyzing monthly revenue, transaction patterns, peak hours, product performance, and store locations.
+
+[View project](./05-coffee-shop-sales/)
+
 ### 06. Selected SQL Coursework
 **SQL Server | T-SQL**
 
@@ -47,7 +54,7 @@ Known technical weaknesses are documented in the project README rather than hidd
 ### 07. Restaurant Orders Analysis
 **MySQL | SQL Analysis | 2026**
 
-Maven Analytics guided project exploring restaurant menu prices, order volumes, and order sizes. Objectives 1 and 2 are documented; cross-table analysis is pending.
+Maven Analytics guided project exploring restaurant menu prices, order volumes, and order sizes. Objectives 1, 2 and 3 have been implemented, covering menu exploration, order activity, and customer behavior analysis. Query results still require validation.
 
 ## Portfolio approach
 
@@ -71,4 +78,3 @@ My current focus is moving toward more business-oriented Data Analyst projects i
 - sales and customer analysis
 - KPI reporting
 - business insights
-
