@@ -12,7 +12,7 @@ FROM order_details;
 SELECT COUNT(DISTINCT order_id) FROM order_details;
 
 -- 4. How many items were ordered within this date range?
-SELECT COUNT(DISTINCT item_id) FROM order_details;
+SELECT COUNT(item_id) FROM order_details;
 
 -- 5. Which orders had the most number of items?
 SELECT order_id, COUNT(item_id) AS total_items
