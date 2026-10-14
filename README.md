@@ -49,8 +49,6 @@ Known technical weaknesses are documented in the project README rather than hidd
 
 Maven Analytics guided project exploring restaurant menu prices, order volumes, and order sizes. Objectives 1 and 2 are documented; cross-table analysis is pending.
 
-[View Project](./07-restaurant-orders-mysql/)
-
 ## Portfolio approach
 
 Some projects in this repository originated from university coursework or guided projects.
