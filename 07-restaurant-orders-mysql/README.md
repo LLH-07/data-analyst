@@ -3,7 +3,7 @@
 **Project type:** Maven Analytics Guided Project  
 **Tools:** MySQL, MySQL Workbench  
 **Portfolio update:** October 2026  
-**Status:** Objectives 1 and 2 documented; cross-table analysis not yet included.
+**Status:** Objectives 1, 2 and 3 implemented; query results require validation.
 
 ## Overview
 
@@ -48,9 +48,24 @@ In `sql/02_orders_exploration.sql` I wrote queries to:
 
 **SQL skills:** `MIN`, `MAX`, `COUNT(DISTINCT ...)`, aggregation, `HAVING`, and a subquery.
 
+
+### Objective 3 - Customer behavior and order value
+
+In sql/03_analyze_customer_behavior.sql, I wrote queries to:
+
+- Join order details with menu item information.
+- Compare the most and least frequently ordered items.
+- Identify the five highest-spending orders.
+- Inspect items purchased in the highest-spending order.
+- Summarize product categories in the five highest-spending orders.
+
+**SQL skills:** LEFT JOIN, GROUP BY, SUM, COUNT, ORDER BY, LIMIT.
+
+**Limitations:** The order IDs used for detailed analysis are hard-coded. Missing or unmatched menu item IDs can result in NULL prices and affect revenue calculations. Query results should be checked before reporting final insights.
+
 ## Current Limitations and Corrections
 
-1. **Incomplete scope.** The uploaded source contains only Objectives 1 and 2. It does not yet include joins between the two tables, revenue by menu category, order-level spend, or higher-spending orders. These should not be claimed as completed analyses.
+1. **Validation pending.** Objectives 1, 2 and 3 have SQL queries, but their outputs and business conclusions have not yet been independently validated.
 2. **Item counting corrected.** Objective 2, question 4 now reports total order-detail rows using COUNT(*), rows with known item IDs using COUNT(item_id), and rows with missing item IDs. The provided dataset contains 12,234 rows, including 137 rows with missing item IDs.
 3. **Handling NULL values.** `COUNT(item_id)` excludes records with a missing `item_id`; this matters when interpreting items per order.
 4. **Price ties.** `ORDER BY price ... LIMIT 1` returns one extreme-priced dish, not necessarily all dishes sharing the same price.
@@ -66,7 +81,7 @@ In `sql/02_orders_exploration.sql` I wrote queries to:
 
 ## Next Steps
 
-Complete the remaining joined-table analysis, correct metric labels, add data-quality checks, save verified query results, and summarize insights in business language.
+Validate joined-table analysis, correct metric labels, add data-quality checks, save verified query results, and summarize insights in business language.
 
 ## Project Structure
 
@@ -82,4 +97,5 @@ Complete the remaining joined-table analysis, correct metric labels, add data-qu
 ```
 
 The original project scope is preserved. Objective 2, question 4 was corrected, and the remaining limitations are documented above.
+
 
